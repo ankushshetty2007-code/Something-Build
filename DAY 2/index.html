@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Ankush Shetty - Engineering Student, Developer and Problem Solver">
+
+    <title>Ankush Shetty | Developer Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="grid-background"></div>
+    <canvas id="particles"></canvas>
+
+    <!-- Cursor glow -->
+    <div class="cursor-glow"></div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <a href="#home" class="logo">
+            <span>A</span>
+            <strong>ANKUSH</strong>
+        </a>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+
+            <button class="theme-btn" id="themeBtn" aria-label="Toggle theme">
+                ☼
+            </button>
+
+            <button class="menu-btn" id="menuBtn" aria-label="Open menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+        </div>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <main>
+
+        <section class="hero section" id="home">
+
+            <div class="hero-content reveal">
+
+                <div class="status-pill">
+                    <span class="status-dot"></span>
+                    Available for learning & building
+                </div>
+
+                <p class="hero-small">
+                    HELLO, I'M
+                </p>
+
+                <h1>
+                    Ankush
+                    <span>Shetty</span>
+                </h1>
+
+                <h2>
+                    Engineering Student
+                    <span>•</span>
+                    Developer
+                    <span>•</span>
+                    Problem Solver
+                </h2>
+
+                <p class="hero-description">
+                    Building my skills in algorithms, software development,
+                    web technologies, and artificial intelligence.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="btn btn-primary">
+                        <span>Explore My Work</span>
+                        <span>↗</span>
+                    </a>
+
+                    <a href="https://drive.google.com/file/d/12csNUqJAVs1GkfTPx9XOkmZGOkB3J48S/view?usp=sharing"
+                       class="btn btn-secondary"
+                       download>
+                        <span>Download Resume</span>
+                        <span>↓</span>
+                    </a>
+
+                    <a href="#contact" class="btn btn-ghost">
+                        Contact Me
+                    </a>
+
+                </div>
+
+                <div class="hero-socials">
+
+                    <a href="https://github.com/ankushshetty2007-code"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        GitHub ↗
+                    </a>
+
+                    <a href="https://in.linkedin.com/in/ankush-shetty-556a13384"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        LinkedIn ↗
+                    </a>
+
+                    <a href="mailto:ankushshetty2007@gmail.com">
+                        Email ↗
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Futuristic Visual -->
+
+            <div class="hero-visual reveal">
+
+                <div class="orbital-system">
+
+                    <div class="orbit orbit-one"></div>
+                    <div class="orbit orbit-two"></div>
+                    <div class="orbit orbit-three"></div>
+
+                    <div class="energy-orb">
+
+                        <div class="orb-core"></div>
+
+                        <div class="orb-ring ring-one"></div>
+                        <div class="orb-ring ring-two"></div>
+                        <div class="orb-ring ring-three"></div>
+
+                    </div>
+
+                    <div class="floating-code code-one">
+                        &lt;/&gt;
+                    </div>
+
+                    <div class="floating-code code-two">
+                        { }
+                    </div>
+
+                    <div class="floating-code code-three">
+                        AI
+                    </div>
+
+                    <div class="floating-code code-four">
+                        C++
+                    </div>
+
+                </div>
+
+                <div class="visual-card visual-card-one">
+                    <span>01</span>
+                    <p>BUILD</p>
+                </div>
+
+                <div class="visual-card visual-card-two">
+                    <span>02</span>
+                    <p>SOLVE</p>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= ABOUT ================= -->
+
+        <section class="section about-section" id="about">
+
+            <div class="section-heading reveal">
+
+                <span class="section-number">01</span>
+
+                <div>
+                    <p class="eyebrow">ABOUT ME</p>
+                    <h2>Curious mind.<br><span>Constantly building.</span></h2>
+                </div>
+
+            </div>
+
+
+            <div class="about-grid">
+
+                <div class="about-text reveal">
+
+                    <p class="large-text">
+                        I'm an engineering student passionate about
+                        technology, coding, problem solving and building
+                        practical software.
+                    </p>
+
+                    <p>
+                        I enjoy understanding how things work, solving
+                        challenging programming problems and turning ideas
+                        into useful digital experiences.
+                    </p>
+
+                    <p>
+                        My current journey revolves around strengthening
+                        my fundamentals in computer science while exploring
+                        full-stack development and artificial intelligence.
+                    </p>
+
+                    <a href="#contact" class="text-link">
+                        Let's build something useful
+                        <span>→</span>
+                    </a>
+
+                </div>
+
+
+                <div class="about-cards reveal">
+
+                    <div class="glass-card">
+                        <span class="card-icon">⌘</span>
+                        <h3>Problem Solving</h3>
+                        <p>
+                            Breaking complex problems into efficient,
+                            logical solutions.
+                        </p>
+                    </div>
+
+                    <div class="glass-card">
+                        <span class="card-icon">◇</span>
+                        <h3>Development</h3>
+                        <p>
+                            Creating practical and responsive digital
+                            experiences.
+                        </p>
+                    </div>
+
+                    <div class="glass-card">
+                        <span class="card-icon">✦</span>
+                        <h3>AI & ML</h3>
+                        <p>
+                            Exploring intelligent systems and
+                            machine learning technologies.
+                        </p>
+                    </div>
+
+                    <div class="glass-card">
+                        <span class="card-icon">∞</span>
+                        <h3>Continuous Learning</h3>
+                        <p>
+                            Learning consistently and improving every day.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SKILLS ================= -->
+
+        <section class="section skills-section" id="skills">
+
+            <div class="section-heading reveal">
+
+                <span class="section-number">02</span>
+
+                <div>
+                    <p class="eyebrow">TECH STACK</p>
+                    <h2>Skills I'm <span>building.</span></h2>
+                </div>
+
+            </div>
+
+
+            <div class="skills-grid">
+
+                <!-- Programming -->
+
+                <div class="skill-panel glass-panel reveal">
+
+                    <div class="skill-panel-header">
+                        <span class="skill-number">01</span>
+
+                        <div>
+                            <p>PROGRAMMING</p>
+                            <h3>Languages</h3>
+                        </div>
+                    </div>
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>C</span>
+                            <span>75%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <span style="width:75%"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>C++</span>
+                            <span>70%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <span style="width:70%"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="skill-item">
+
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>75%</span>
+                        </div>
+
+                        <div class="skill-bar">
+                            <span style="width:75%"></span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Development -->
+
+                <div class="skill-panel glass-panel reveal">
+
+                    <div class="skill-panel-header">
+                        <span class="skill-number">02</span>
+
+                        <div>
+                            <p>DEVELOPMENT</p>
+                            <h3>Web Technologies</h3>
+                        </div>
+                    </div>
+
+                    <div class="tech-cloud">
+
+                        <div class="tech-chip">HTML</div>
+                        <div class="tech-chip">CSS</div>
+                        <div class="tech-chip">JavaScript</div>
+                        <div class="tech-chip">Responsive Design</div>
+                        <div class="tech-chip">Git</div>
+                        <div class="tech-chip">GitHub</div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CS -->
+
+                <div class="skill-panel glass-panel reveal">
+
+                    <div class="skill-panel-header">
+                        <span class="skill-number">03</span>
+
+                        <div>
+                            <p>COMPUTER SCIENCE</p>
+                            <h3>Core Skills</h3>
+                        </div>
+                    </div>
+
+                    <div class="core-skills">
+
+                        <div class="core-skill">
+                            <span>01</span>
+                            <strong>Data Structures & Algorithms</strong>
+                        </div>
+
+                        <div class="core-skill">
+                            <span>02</span>
+                            <strong>Problem Solving</strong>
+                        </div>
+
+                        <div class="core-skill">
+                            <span>03</span>
+                            <strong>Git & GitHub</strong>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PROJECTS ================= -->
+
+        <section class="section projects-section" id="projects">
+
+            <div class="section-heading reveal">
+
+                <span class="section-number">03</span>
+
+                <div>
+                    <p class="eyebrow">SELECTED WORK</p>
+                    <h2>Things I've <span>built.</span></h2>
+                </div>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+                <!-- Project -->
+
+                <article class="project-card tilt-card reveal">
+
+                    <div class="project-top">
+
+                        <span class="project-index">01</span>
+
+                        <div class="project-links">
+
+                            <a href="https://github.com/ankushshetty2007-code"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               aria-label="GitHub">
+                                ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-visual blood-project">
+
+                        <div class="blood-symbol">
+                            +
+                        </div>
+
+                        <div class="data-line line-one"></div>
+                        <div class="data-line line-two"></div>
+                        <div class="data-line line-three"></div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            FULL STACK DEVELOPMENT
+                        </p>
+
+                        <h3>
+                            Blood Donation & Emergency Donor Finder
+                        </h3>
+
+                        <p>
+                            A platform designed to help people find
+                            suitable blood donors during emergency
+                            situations.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>Node.js</span>
+                            <span>Express</span>
+
+                        </div>
+
+                        <div class="project-buttons">
+
+                            <a href="https://github.com/ankushshetty2007-code"
+                               target="_blank"
+                               rel="noopener noreferrer"
+                               class="project-btn">
+                                GitHub ↗
+                            </a>
+
+                            <a href="#contact"
+                               class="project-btn outline">
+                                Live Demo ↗
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+
+                <!-- Placeholder project -->
+
+                <article class="project-card tilt-card reveal">
+
+                    <div class="project-top">
+
+                        <span class="project-index">02</span>
+
+                        <span class="coming-soon">
+                            IN PROGRESS
+                        </span>
+
+                    </div>
+
+
+                    <div class="project-visual code-project">
+
+                        <div class="terminal-window">
+
+                            <div class="terminal-header">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+
+                            <div class="terminal-body">
+
+                                <p>
+                                    <span class="terminal-purple">const</span>
+                                    future =
+                                    <span class="terminal-cyan">
+                                        "building"
+                                    </span>;
+                                </p>
+
+                                <p>
+                                    <span class="terminal-purple">while</span>
+                                    (learning) {
+                                </p>
+
+                                <p class="indent">
+                                    improve();
+                                </p>
+
+                                <p>
+                                    }
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-content">
+
+                        <p class="project-category">
+                            NEXT PROJECT
+                        </p>
+
+                        <h3>
+                            More Projects Coming Soon
+                        </h3>
+
+                        <p>
+                            Currently learning, experimenting and
+                            building new projects across development,
+                            algorithms and AI.
+                        </p>
+
+                        <div class="project-tech">
+
+                            <span>C++</span>
+                            <span>Python</span>
+                            <span>JavaScript</span>
+                            <span>AI/ML</span>
+
+                        </div>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= BUILDING MY EDGE ================= -->
+
+        <section class="section edge-section" id="journey">
+
+            <div class="edge-header reveal">
+
+                <p class="eyebrow">MY JOURNEY</p>
+
+                <h2>
+                    Building
+                    <span>My Edge.</span>
+                </h2>
+
+                <p>
+                    Focused on developing strong fundamentals,
+                    practical skills and the ability to solve
+                    real-world problems.
+                </p>
+
+            </div>
+
+
+            <div class="stats-grid reveal">
+
+                <div class="stat-card">
+                    <span class="stat-number" data-target="100">0</span>
+                    <span class="stat-plus">+</span>
+                    <p>Problems Solved</p>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-number" data-target="3">0</span>
+                    <span class="stat-plus">+</span>
+                    <p>Projects Built</p>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-number" data-target="8">0</span>
+                    <span class="stat-plus">+</span>
+                    <p>Technologies Learned</p>
+                </div>
+
+                <div class="stat-card">
+                    <span class="stat-number" data-target="5">0</span>
+                    <span class="stat-plus">+</span>
+                    <p>Focus Areas</p>
+                </div>
+
+            </div>
+
+
+            <div class="focus-grid reveal">
+
+                <div class="focus-item">
+                    <span>01</span>
+                    <strong>DSA</strong>
+                    <small>Algorithms & Data Structures</small>
+                </div>
+
+                <div class="focus-item">
+                    <span>02</span>
+                    <strong>CP</strong>
+                    <small>Competitive Programming</small>
+                </div>
+
+                <div class="focus-item">
+                    <span>03</span>
+                    <strong>WEB</strong>
+                    <small>Full Stack Development</small>
+                </div>
+
+                <div class="focus-item">
+                    <span>04</span>
+                    <strong>AI/ML</strong>
+                    <small>Artificial Intelligence</small>
+                </div>
+
+                <div class="focus-item">
+                    <span>05</span>
+                    <strong>SE</strong>
+                    <small>Software Engineering</small>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EDUCATION ================= -->
+
+        <section class="section education-section" id="education">
+
+            <div class="section-heading reveal">
+
+                <span class="section-number">04</span>
+
+                <div>
+                    <p class="eyebrow">EDUCATION</p>
+                    <h2>Learning the <span>foundations.</span></h2>
+                </div>
+
+            </div>
+
+
+            <div class="timeline">
+
+                <div class="timeline-line"></div>
+
+                <div class="timeline-item reveal">
+
+                    <div class="timeline-dot"></div>
+
+                    <div class="timeline-date">
+                        CURRENT
+                    </div>
+
+                    <div class="timeline-card glass-panel">
+
+                        <span class="education-label">
+                            ENGINEERING
+                        </span>
+
+                        <h3>
+                            Information Science & Engineering
+                        </h3>
+
+                        <h4>
+                            Sahyadri College of Engineering and Management
+                        </h4>
+
+                        <p>
+                            Building a strong foundation in programming,
+                            computer science fundamentals, software
+                            development and problem solving.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= CONTACT ================= -->
+
+        <section class="section contact-section" id="contact">
+
+            <div class="contact-container reveal">
+
+                <div class="contact-info">
+
+                    <p class="eyebrow">GET IN TOUCH</p>
+
+                    <h2>
+                        Let's build
+                        <span>something.</span>
+                    </h2>
+
+                    <p>
+                        Have an idea, opportunity, project or simply
+                        want to connect? Feel free to reach out.
+                    </p>
+
+
+                    <div class="contact-links">
+
+                        <a href="mailto:ankushshetty2007@gmail.com">
+
+                            <span class="contact-icon">@</span>
+
+                            <div>
+                                <small>EMAIL</small>
+                                <strong>
+                                    ankushshetty2007@gmail.com
+                                </strong>
+                            </div>
+
+                            <span>↗</span>
+
+                        </a>
+
+
+                        <a href="https://github.com/ankushshetty2007-code"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <span class="contact-icon">GH</span>
+
+                            <div>
+                                <small>GITHUB</small>
+                                <strong>
+                                    ankushshetty2007-code
+                                </strong>
+                            </div>
+
+                            <span>↗</span>
+
+                        </a>
+
+
+                        <a href="https://in.linkedin.com/in/ankush-shetty-556a13384"
+                           target="_blank"
+                           rel="noopener noreferrer">
+
+                            <span class="contact-icon">in</span>
+
+                            <div>
+                                <small>LINKEDIN</small>
+                                <strong>
+                                    Ankush Shetty
+                                </strong>
+                            </div>
+
+                            <span>↗</span>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <form class="contact-form" id="contactForm">
+
+                    <div class="form-group">
+
+                        <label for="name">
+                            Your Name
+                        </label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your name"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="email">
+                            Your Email
+                        </label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            placeholder="you@example.com"
+                            required
+                        >
+
+                    </div>
+
+
+                    <div class="form-group">
+
+                        <label for="message">
+                            Message
+                        </label>
+
+                        <textarea
+                            id="message"
+                            rows="5"
+                            placeholder="Tell me what you're thinking..."
+                            required
+                        ></textarea>
+
+                    </div>
+
+
+                    <button type="submit" class="submit-btn">
+
+                        <span>Send Message</span>
+
+                        <span class="submit-arrow">
+                            →
+                        </span>
+
+                    </button>
+
+                    <p id="formMessage" class="form-message"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-inner">
+
+            <div class="footer-logo">
+                <span>A</span>
+                ANKUSH SHETTY
+            </div>
+
+            <p>
+                Building skills. Solving problems. Creating impact.
+            </p>
+
+            <div class="footer-socials">
+
+                <a href="https://github.com/ankushshetty2007-code"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    GitHub
+                </a>
+
+                <a href="https://in.linkedin.com/in/ankush-shetty-556a13384"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    LinkedIn
+                </a>
+
+                <a href="mailto:ankushshetty2007@gmail.com">
+                    Email
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+
+            <span>
+                © 2026 Ankush Shetty
+            </span>
+
+            <span>
+                Designed & Built with HTML, CSS & JavaScript
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
