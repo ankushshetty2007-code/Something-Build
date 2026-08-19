@@ -1,0 +1,292 @@
+# Ankush Shetty — Developer Portfolio
+
+A modern, responsive personal developer portfolio built using **HTML, CSS, and JavaScript**.
+
+The website presents my skills, projects, education, coding journey, and contact information through a futuristic interface with smooth animations, glassmorphism cards, neon gradients, and interactive elements.
+
+## 🚀 Live Portfolio
+
+Add your deployed website link here:
+
+`https://your-portfolio-link.com`
+
+## 📌 About the Project
+
+This portfolio was created as part of a **Web Fundamentals assignment** to demonstrate practical knowledge of:
+
+* HTML structure
+* CSS styling and responsive layouts
+* JavaScript interactions
+* Flexbox and CSS Grid
+* Animations and transitions
+* Responsive web design
+* Git and GitHub
+
+The goal was to create a professional developer portfolio that is both visually engaging and easy to navigate.
+
+## ✨ Features
+
+* Modern futuristic UI
+* Fully responsive design
+* Mobile-friendly navigation
+* Dark / Light mode
+* Animated background particles
+* Glassmorphism cards
+* Neon gradient effects
+* Smooth scrolling
+* Scroll reveal animations
+* Interactive project cards
+* 3D card tilt effects
+* Animated statistics
+* Skill progress indicators
+* Dynamic active navigation
+* Interactive contact form
+* Responsive education timeline
+* GitHub and LinkedIn links
+* Resume download button
+* Accessibility-friendly reduced-motion support
+
+## 🛠️ Technologies Used
+
+### Frontend
+
+* HTML5
+* CSS3
+* JavaScript
+
+### CSS Techniques
+
+* Flexbox
+* CSS Grid
+* CSS Variables
+* Glassmorphism
+* CSS Gradients
+* CSS Animations
+* Media Queries
+* Backdrop Filters
+* Responsive Design
+
+### JavaScript Features
+
+* DOM Manipulation
+* Intersection Observer API
+* Particle Animation
+* Theme Switching
+* Animated Counters
+* Mobile Navigation
+* Contact Form Interaction
+* Mouse-based Card Tilt
+* Cursor Effects
+
+## 📂 Project Structure
+
+```text
+portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+├── resume.pdf
+└── README.md
+```
+
+## 👨‍💻 Personal Information
+
+**Name:** Ankush Shetty
+
+**Branch:** Information Science & Engineering
+
+**College:** Sahyadri College of Engineering and Management
+
+### Areas of Interest
+
+* Data Structures & Algorithms
+* Competitive Programming
+* Full Stack Web Development
+* Artificial Intelligence & Machine Learning
+* Software Development
+* Problem Solving
+
+## 💻 Featured Project
+
+### Blood Donation & Emergency Donor Finder
+
+A web-based platform designed to help users find suitable blood donors during emergency situations.
+
+**Technologies:**
+
+* HTML
+* CSS
+* JavaScript
+* Node.js
+* Express.js
+
+## 📊 Coding Journey
+
+The portfolio includes a dedicated **Building My Edge** section representing my current focus on:
+
+* DSA
+* Competitive Programming
+* Web Development
+* AI/ML
+* Software Engineering
+
+The statistics displayed on the website are easy to customize as my progress increases.
+
+## 📬 Contact
+
+**Email:** [ankushshetty2007@gmail.com](mailto:ankushshetty2007@gmail.com)
+
+**GitHub:**
+https://github.com/ankushshetty2007-code
+
+**LinkedIn:**
+https://in.linkedin.com/in/ankush-shetty-556a13384
+
+## ▶️ How to Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ankushshetty2007-code/portfolio.git
+```
+
+### 2. Open the project
+
+```bash
+cd portfolio
+```
+
+### 3. Run the website
+
+Open `index.html` directly in your browser.
+
+For the best development experience, use **VS Code with Live Server**.
+
+### Using Live Server
+
+1. Open the project folder in VS Code.
+2. Install the **Live Server** extension.
+3. Right-click `index.html`.
+4. Select **Open with Live Server**.
+
+The portfolio will open in your browser.
+
+## 🌐 Deployment
+
+The project can be deployed for free using **GitHub Pages**.
+
+Basic steps:
+
+1. Push the project to GitHub.
+2. Open the repository settings.
+3. Go to **Pages**.
+4. Select the `main` branch.
+5. Select the root folder.
+6. Save the settings.
+7. GitHub will generate a public website URL.
+
+## 🎨 Customization
+
+You can easily customize the portfolio by editing:
+
+### Personal information
+
+Edit the content in:
+
+```text
+index.html
+```
+
+### Colors and design
+
+Modify the CSS variables in:
+
+```text
+style.css
+```
+
+For example:
+
+```css
+:root {
+    --purple: #9b5cff;
+    --cyan: #38e8ff;
+    --blue: #4385ff;
+}
+```
+
+### Statistics
+
+Update the numbers in `index.html`:
+
+```html
+<span class="stat-number" data-target="100">0</span>
+```
+
+### Projects
+
+Add or edit project cards inside:
+
+```html
+<div class="projects-grid">
+```
+
+### JavaScript functionality
+
+Interactive features can be modified in:
+
+```text
+script.js
+```
+
+## 📱 Responsive Design
+
+The portfolio is designed to work across:
+
+* Desktop
+* Laptop
+* Tablet
+* Mobile phones
+
+CSS media queries automatically adjust layouts, typography, navigation, cards, and spacing based on screen size.
+
+## 🎯 Learning Outcomes
+
+Through this project, I practiced:
+
+* Creating semantic HTML structures
+* Designing responsive layouts
+* Using CSS Grid and Flexbox
+* Creating modern UI effects
+* Implementing JavaScript interactions
+* Working with the DOM
+* Creating animations with CSS and JavaScript
+* Managing a project using Git and GitHub
+* Preparing a website for deployment
+
+## 🔮 Future Improvements
+
+Planned improvements include:
+
+* Adding more projects
+* Connecting the contact form to a backend
+* Adding a blog section
+* Adding more coding statistics
+* Integrating GitHub API
+* Adding project filtering
+* Deploying the portfolio online
+* Improving accessibility further
+
+## 📄 License
+
+This project is created for educational and personal portfolio purposes.
+
+---
+
+### Built with
+
+**HTML • CSS • JavaScript**
+
+**Ankush Shetty**
+Engineering Student • Developer • Problem Solver
